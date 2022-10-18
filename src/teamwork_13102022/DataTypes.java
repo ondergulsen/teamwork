@@ -39,9 +39,14 @@ public class DataTypes {
         boolean logic = true;
         boolean logic2 = false;
 
+        String metin = "Öğretmen 'Çocuklar sessiz olun.' dedi";
+        System.out.println(metin);
+
+
+            }
+        }
 
 
 
 
-    }
-}
+
