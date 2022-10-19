@@ -12,17 +12,17 @@ public class Operators {
 //        System.out.println("Toplam de?er: " + sum);
 
 
-//        double celsius, fahr;
-//
-//        Scanner input =  new Scanner(System.in);
-//
-//        System.out.println("Derece de?eri giriniz");
-//
-//        celsius = input.nextDouble();
-//
-//        fahr = (celsius * 1.8) + 32;
-//
-//        System.out.println("Fahreneit de?eriniz: " + fahr);
+        double celsius, fahr;
+
+        Scanner input =  new Scanner(System.in);
+
+        System.out.println("Derece de?eri giriniz");
+
+        celsius = input.nextDouble();
+
+        fahr = (celsius * 1.8) + 32;
+
+        System.out.println("Fahreneit de?eriniz: " + fahr);
 
 //        double miles, km;
 //
