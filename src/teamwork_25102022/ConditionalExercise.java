@@ -109,11 +109,12 @@ public class ConditionalExercise {
         Scanner input = new Scanner (System.in);
         System.out.println("Bir spor branşı yazınız: ");
         String game= input.nextLine();
+        game = game.toLowerCase();
         switch(game){
-            case "Futbol": case"Yüzme": case"Amerikan Futbolu":
+            case "futbol": case"yüzme": case"amerikan futbolu":
                 System.out.println("outdoor");
                 break;
-            case "Satranç": case"Puzzle": case"Jimnastik":
+            case "satranç": case"puzzle": case"jimnastik":
                 System.out.println("indoor");
                 break;
             default:
