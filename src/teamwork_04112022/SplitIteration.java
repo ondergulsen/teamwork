@@ -8,8 +8,6 @@ public class SplitIteration {
         // 1- Yukarıdaki cümleyi hasNext() metotu ile kelimelere ayıralım.
 
 
-
-
 //        Aşağıdaki cümleyi split metotu ile 1-for each 2-while kullanarak kelimelere ayıralım;
 //        İsim Meslek Yaş başlıkları halinda tablo şeklinde listeleyelim.
 //        Çıktı:
@@ -17,21 +15,24 @@ public class SplitIteration {
 //        Ahmet	Berber	32
 //        Arif	Manav	55
 //        Selim	Doktor	42
-
-        String str = "Ahmet:Berber;32,Arif:Manav;55,Selim:Doktor;42";
-        String[] myList= str.split("[ ,:;]");
-////        for (String i:
-////             myList) {
-////            System.out.print(i);
-////
-////        }
-        System.out.println("İsim\tMeslek\tYaş");
-        for (int i = 0; i < myList.length; i+=3) {
-            System.out.print(myList[i] + "\t" + myList[i+1] + "\t" + myList[i+2]);
-            System.out.println();
-
+//
+//        String str = "Ahmet:Berber;32,Arif:Manav;55,Selim:Doktor;42";
+//        String[] myList= str.split("[ ,:;]");
+//
+//        System.out.println("İsim\tMeslek\tYaş");
+//        for (int i = 0; i < myList.length; i+=3) {
+//            System.out.print(myList[i] + "\t" + myList[i+1] + "\t" + myList[i+2]);
+//            System.out.println();
+//
+//
+//
+        int toplam =0;
+        int[] sayilar = new int[]{2,4,6};
+        for (int i = 0; i < sayilar.length; i++) {
+            sayilar[i]++;
+            toplam+=sayilar[i];
 
         }
-
+        System.out.println(toplam);
     }
-}
+    }
