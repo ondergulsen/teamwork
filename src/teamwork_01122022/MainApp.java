@@ -43,5 +43,14 @@ public class MainApp {
         Employee employee5 = new Employee("Ali", 33, 45000);
         Employee employee6= employee5.clone();
         System.out.println(employee6);
+
+
+        int count=0;
+        while(count < 10);
+        {
+            System.out.println("Interviewbit");
+
+        }
+        count++;
     }
 }
